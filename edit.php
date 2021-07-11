@@ -42,14 +42,17 @@
 
 <body>
     <div class="w-25 mt-5 m-auto">
+        <h1>Edit Product</h1>
         <form action="edit.php" method="post">
             <div class="mb-3">
                 <label for="namaProduk" class="form-label">Nama Produk</label>
-                <input value=<?= $view['NAMA_PRODUK'] ?> type="text" id="namaProduk" name="namaProduk" class="form-control">
+                <input value=<?= $view['NAMA_PRODUK'] ?> type="text" id="namaProduk" name="namaProduk"
+                    class="form-control">
             </div>
             <div class="mb-3">
                 <label for="keterangan" class="form-label">Keterangan</label>
-                <input value=<?= $view['KETERANGAN'] ?> type="text" id="keterangan" name="keterangan" class="form-control">
+                <input value=<?= $view['KETERANGAN'] ?> type="text" id="keterangan" name="keterangan"
+                    class="form-control">
             </div>
             <div class="mb-3">
                 <label for="harga" class="form-label">Harga</label>

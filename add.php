@@ -36,6 +36,7 @@
 
 <body>
     <div class="w-25 mt-5 m-auto">
+        <h1>Add Product</h1>
         <form action="add.php" method="post">
             <div class="mb-3">
                 <label for="namaProduk" class="form-label">Nama Produk</label>
@@ -53,7 +54,7 @@
                 <label for="jumlah" class="form-label">Jumlah</label>
                 <input type="text" id="jumlah" name="jumlah" class="form-control">
             </div>
-        
+
             <input type="submit" name="submit" class="btn-primary btn w-100">
         </form>
     </div>
